@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(154, 249, 217);
+}
+.front{
+    color:black;
+    font-size:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:5%;
+    
+}
+.shop{
+    background-image: url('shop2.jpeg');
+    height:200px;
+
+}
+button {
+    height: 150px;
+    width: 300px;
+    color: white;
+    margin-left: 39%;
+    margin-top: 5%;
+    font-size: 40px;
+    border: 2px solid black;
+    background-color: black;
+    transition: background-color 0.3s ease; /* Added for smooth transition */
+}
+
+button:hover {
+    background-color: #ff004f;
+}
